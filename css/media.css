@@ -1,0 +1,104 @@
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+
+    .main {
+        flex-direction: column;
+        text-align: center;
+    }
+    .product {
+        margin: 0 auto 30px;
+    }
+
+    .cards {
+        margin: auto;
+    }
+
+    .card {
+        margin-bottom: 30px;
+    }
+    
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+
+    .main {
+        margin-bottom: 0;
+    }
+
+    nav .container {
+        position: relative;
+        display: flex;
+        height: 65px;
+    }
+
+    .button {
+        display: block;
+        margin-right: 57px;
+        transition: 500ms;
+    }
+
+    .button:hover {
+        color: #D47300;
+    }
+
+    .button:focus {
+        color: #D47300;
+    }
+    .button:focus ~ .menu {
+        visibility: visible;
+    }
+
+    nav .menu {
+        position: absolute;
+        flex-direction: column;
+        background: rgb(50, 46, 65);
+        top: 65px;
+        right: 15px;
+        visibility: hidden;
+    }
+
+    .link {
+        width: 150px;
+        text-align: center;
+    }
+
+    footer .container {
+        padding: 37px 15px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .form {
+        margin-bottom: 30px;
+    }
+
+    footer .menu {
+        display: none;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+
+    .cards {
+        justify-content: center;
+    }
+
+    .card {
+        margin: 0 15px 30px;
+    }
+
+}
+
+@media (max-width: 375px) {
+
+
+}
